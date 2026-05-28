@@ -31,13 +31,6 @@ const Projects = () => (
           <p className="text-slate-400 leading-relaxed text-lg mb-10 font-sans">
             {p.desc}
           </p>
-          <button className="text-[10px] font-black text-white uppercase tracking-widest flex items-center gap-2 hover:text-indigo-400 transition-colors group/btn font-sans">
-            Explore Case Study{" "}
-            <ChevronRight
-              size={14}
-              className="group-hover/btn:translate-x-1 transition-transform font-sans"
-            />
-          </button>
           <div
             className={`absolute -bottom-24 -right-24 w-64 h-64 bg-gradient-to-br ${p.theme} opacity-5 blur-[100px] rounded-full group-hover:opacity-10 transition-opacity`}
           />
